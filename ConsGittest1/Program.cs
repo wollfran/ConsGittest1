@@ -11,7 +11,7 @@ namespace ConsGittest1
         static void Main(string[] args)
         {
             gClass tut = new gClass() { id=3, navn="kurt"} ;
-            Console.WriteLine("Hello 1.0");
+            Console.WriteLine("Hello 1.0 {0}", tut.navn);
             Console.ReadLine();
 
         }
